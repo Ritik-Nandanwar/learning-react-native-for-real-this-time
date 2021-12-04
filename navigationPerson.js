@@ -1,8 +1,8 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import About from "./Components/About";
-import Persons from "./Components/Persons";
-import SinglePerson from "./Components/SinglePerson";
+import About from "./ComponentsPerson/About";
+import Persons from "./ComponentsPerson/Persons";
+import SinglePerson from "./ComponentsPerson/SinglePerson";
 const screens = {
   About: {
     screen: About,
